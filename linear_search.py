@@ -5,8 +5,9 @@
 # @File      :  linear_search.py
 # Desctiption:  顺序查找
 
+from cal_time import cal_time
 
-
+@cal_time
 def linear_search(list_nums, val):
     """
     顺序查找元素
@@ -26,7 +27,9 @@ def linear_search(list_nums, val):
 
 
 if __name__ == "__main__":
-    list_nums = [2, 5, 7, 8]
-    val = 7
+    #list_nums = [2, 5, 7, 8]
+    #val = 7
+    list_nums = list(range(1000000))
+    val = 389000
     tmp = linear_search(list_nums, val)
     print(tmp)

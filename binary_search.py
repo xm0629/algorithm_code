@@ -5,7 +5,9 @@
 # @File         :   binary_search.py
 # @Description  :　　二分查找
 
+from cal_time import cal_time
 
+@cal_time
 def binary_search(li, val):
     left = 0
     right = len(li) - 1
@@ -28,8 +30,9 @@ def binary_search(li, val):
 
 
 if __name__ == "__main__":
-    list_nums = [1, 2, 3, 4, 5, 6, 7, 9]
-    val = 3
+    #list_nums = [1, 2, 3, 4, 5, 6, 7, 9]
+    list_nums = list(range(1000000))
+    val = 389000
     tmp = binary_search(list_nums, val)
     print(tmp)
 
