@@ -5,7 +5,7 @@
 # @File         :   binary_search.py
 # @Description  :　　二分查找
 
-from cal_time import cal_time
+
 
 @cal_time
 def binary_search(li, val):
