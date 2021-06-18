@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuda_rep"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_device_call">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/simple_device_call" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_device_call"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_device_call/fast">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/simple_device_call" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple_device_call/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set_gpu">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/set_gpu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 set_gpu"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set_gpu/fast">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/set_gpu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 set_gpu/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_rep">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/cuda_rep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_rep"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_rep/fast">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/cuda_rep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_rep/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CUDA_TEST">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CUDA_TEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 CUDA_TEST"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CUDA_TEST/fast">
+				<Option output="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CUDA_TEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test"/>
+					<Add directory="/home/xuming/NewPartion/study/cuda_test/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 CUDA_TEST/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o">
+			<Option target="CUDA_TEST"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o">
+			<Option target="set_gpu"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o">
+			<Option target="simple_device_call"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/main.cpp">
+			<Option target="cuda_rep"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/main.cu">
+			<Option target="CUDA_TEST"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/set_gpu.cu">
+			<Option target="set_gpu"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/simple_device_call.cu">
+			<Option target="simple_device_call"/>
+		</Unit>
+		<Unit filename="/home/xuming/NewPartion/study/cuda_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

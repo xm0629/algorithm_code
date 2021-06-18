@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o  -o set_gpu  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 /usr/local/cuda/lib64/libcudart.so 

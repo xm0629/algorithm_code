@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o  -o simple_device_call  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 /usr/local/cuda/lib64/libcudart.so 

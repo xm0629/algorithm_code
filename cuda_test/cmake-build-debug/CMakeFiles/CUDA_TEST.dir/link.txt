@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o  -o CUDA_TEST  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 /usr/local/cuda/lib64/libcudart.so 
