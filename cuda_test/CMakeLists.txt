@@ -39,6 +39,8 @@ else()
     link_directories(/usr/local/cuda/lib64)
 endif()
 
+include_directories(./include)
+
 add_executable(cuda_rep
     main.cpp
         main.cpp)
@@ -46,6 +48,9 @@ target_link_libraries(cuda_rep)
 
 
 
-cuda_add_executable(CUDA_TEST main.cu)
+
+
+cuda_add_executable(main main.cu)
 cuda_add_executable(set_gpu set_gpu.cu)
+cuda_add_executable(set_argv set_argv.cu)
 cuda_add_executable(simple_device_call simple_device_call.cu)

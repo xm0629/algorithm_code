@@ -10,30 +10,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d43e8/fast 
-/usr/bin/make -f CMakeFiles/cmTC_d43e8.dir/build.make CMakeFiles/cmTC_d43e8.dir/build
-make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d43e8.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_d43e8.dir/testCXXCompiler.cxx.o -c /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_d43e8
-/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43e8.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_d43e8.dir/testCXXCompiler.cxx.o  -o cmTC_d43e8 
-make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_1aaf3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1aaf3.dir/build.make CMakeFiles/cmTC_1aaf3.dir/build
+make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1aaf3.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1aaf3.dir/testCXXCompiler.cxx.o -c /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1aaf3
+/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aaf3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1aaf3.dir/testCXXCompiler.cxx.o  -o cmTC_1aaf3 
+make[1]: Leaving directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5d58d/fast 
-/usr/bin/make -f CMakeFiles/cmTC_5d58d.dir/build.make CMakeFiles/cmTC_5d58d.dir/build
-make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o -c /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_415f1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_415f1.dir/build.make CMakeFiles/cmTC_415f1.dir/build
+make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o -c /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -42,8 +42,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc1WakMb.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc2Yh5LU.s
 GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -67,15 +67,15 @@ GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1WakMb.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2Yh5LU.s
 GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_5d58d
-/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d58d.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d58d 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_415f1
+/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_415f1.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_415f1 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -87,10 +87,10 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d58d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPU2Fif.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d58d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d58d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_415f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQQDQ6X.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_415f1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_415f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -118,13 +118,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_5d58d/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5d58d.dir/build.make CMakeFiles/cmTC_5d58d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o -c /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_415f1/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_415f1.dir/build.make CMakeFiles/cmTC_415f1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o -c /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -133,8 +133,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc1WakMb.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc2Yh5LU.s]
   ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -158,15 +158,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1WakMb.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2Yh5LU.s]
   ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_5d58d]
-  ignore line: [/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d58d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d58d ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_415f1]
+  ignore line: [/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_415f1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_415f1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -178,13 +178,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d58d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPU2Fif.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5d58d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_415f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQQDQ6X.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_415f1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccPU2Fif.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQQDQ6X.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -202,7 +202,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5d58d] ==> ignore
+    arg [cmTC_415f1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -214,7 +214,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_5d58d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_415f1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -240,17 +240,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_be557/fast 
-/usr/bin/make -f CMakeFiles/cmTC_be557.dir/build.make CMakeFiles/cmTC_be557.dir/build
-make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be557.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_be557.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_be557
-/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be557.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_be557.dir/feature_tests.cxx.o  -o cmTC_be557 
-make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_be67c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_be67c.dir/build.make CMakeFiles/cmTC_be67c.dir/build
+make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be67c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_be67c.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_be67c
+/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be67c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_be67c.dir/feature_tests.cxx.o  -o cmTC_be67c 
+make[1]: Leaving directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -313,17 +313,17 @@ make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6e377/fast 
-/usr/bin/make -f CMakeFiles/cmTC_6e377.dir/build.make CMakeFiles/cmTC_6e377.dir/build
-make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6e377.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_6e377.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6e377
-/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e377.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_6e377.dir/feature_tests.cxx.o  -o cmTC_6e377 
-make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_c0ab8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c0ab8.dir/build.make CMakeFiles/cmTC_c0ab8.dir/build
+make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0ab8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c0ab8.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c0ab8
+/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ab8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c0ab8.dir/feature_tests.cxx.o  -o cmTC_c0ab8 
+make[1]: Leaving directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -386,17 +386,17 @@ make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_758d3/fast 
-/usr/bin/make -f CMakeFiles/cmTC_758d3.dir/build.make CMakeFiles/cmTC_758d3.dir/build
-make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_758d3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_758d3.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_758d3
-/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_758d3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_758d3.dir/feature_tests.cxx.o  -o cmTC_758d3 
-make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_04d20/fast 
+/usr/bin/make -f CMakeFiles/cmTC_04d20.dir/build.make CMakeFiles/cmTC_04d20.dir/build
+make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04d20.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_04d20.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_04d20
+/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04d20.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_04d20.dir/feature_tests.cxx.o  -o cmTC_04d20 
+make[1]: Leaving directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -459,17 +459,17 @@ make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_05f0b/fast 
-/usr/bin/make -f CMakeFiles/cmTC_05f0b.dir/build.make CMakeFiles/cmTC_05f0b.dir/build
-make[1]: Entering directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_05f0b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_05f0b.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_05f0b
-/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f0b.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_05f0b.dir/feature_tests.cxx.o  -o cmTC_05f0b 
-make[1]: Leaving directory '/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_b7af3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b7af3.dir/build.make CMakeFiles/cmTC_b7af3.dir/build
+make[1]: Entering directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7af3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b7af3.dir/feature_tests.cxx.o -c /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b7af3
+/home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7af3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b7af3.dir/feature_tests.cxx.o  -o cmTC_b7af3 
+make[1]: Leaving directory '/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

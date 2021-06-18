@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xuming/NewPartion/study/cuda_test/main.cpp
+/home/xuming/NewPartion/algorithm_code/cuda_test/main.cpp
 iostream
 -
 

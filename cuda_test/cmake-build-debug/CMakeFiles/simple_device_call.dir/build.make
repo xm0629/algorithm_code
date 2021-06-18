@@ -43,10 +43,10 @@ RM = /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuming/NewPartion/study/cuda_test
+CMAKE_SOURCE_DIR = /home/xuming/NewPartion/algorithm_code/cuda_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuming/NewPartion/study/cuda_test/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/simple_device_call.dir/depend.make
@@ -299,22 +299,22 @@ CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_cal
 CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o: /usr/local/cuda/include/vector_types.h
 CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o: CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.Debug.cmake
 CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o: ../simple_device_call.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o"
-	cd /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir && /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E make_directory /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//.
-	cd /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir && /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//./simple_device_call_generated_simple_device_call.cu.o -D generated_cubin_file:STRING=/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//./simple_device_call_generated_simple_device_call.cu.o.cubin.txt -P /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//simple_device_call_generated_simple_device_call.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o"
+	cd /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir && /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E make_directory /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//.
+	cd /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir && /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//./simple_device_call_generated_simple_device_call.cu.o -D generated_cubin_file:STRING=/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//./simple_device_call_generated_simple_device_call.cu.o.cubin.txt -P /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir//simple_device_call_generated_simple_device_call.cu.o.Debug.cmake
 
 # Object files for target simple_device_call
 simple_device_call_OBJECTS =
 
 # External object files for target simple_device_call
 simple_device_call_EXTERNAL_OBJECTS = \
-"/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o"
+"/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o"
 
 simple_device_call: CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o
 simple_device_call: CMakeFiles/simple_device_call.dir/build.make
 simple_device_call: /usr/local/cuda/lib64/libcudart.so
 simple_device_call: CMakeFiles/simple_device_call.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simple_device_call"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simple_device_call"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_device_call.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -327,6 +327,6 @@ CMakeFiles/simple_device_call.dir/clean:
 .PHONY : CMakeFiles/simple_device_call.dir/clean
 
 CMakeFiles/simple_device_call.dir/depend: CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o
-	cd /home/xuming/NewPartion/study/cuda_test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xuming/NewPartion/study/cuda_test /home/xuming/NewPartion/study/cuda_test /home/xuming/NewPartion/study/cuda_test/cmake-build-debug /home/xuming/NewPartion/study/cuda_test/cmake-build-debug /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xuming/NewPartion/algorithm_code/cuda_test /home/xuming/NewPartion/algorithm_code/cuda_test /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/simple_device_call.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/simple_device_call.dir/depend
 

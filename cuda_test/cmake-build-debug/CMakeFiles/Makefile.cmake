@@ -10,8 +10,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
-  "CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.cmake.pre-gen"
-  "CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.depend"
+  "CMakeFiles/main.dir/main_generated_main.cu.o.cmake.pre-gen"
+  "CMakeFiles/main.dir/main_generated_main.cu.o.depend"
+  "CMakeFiles/set_argv.dir/set_argv_generated_set_argv.cu.o.cmake.pre-gen"
+  "CMakeFiles/set_argv.dir/set_argv_generated_set_argv.cu.o.depend"
   "CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.cmake.pre-gen"
   "CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.depend"
   "CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.cmake.pre-gen"
@@ -50,19 +52,22 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.cmake.pre-gen"
+  "CMakeFiles/main.dir/main_generated_main.cu.o.cmake.pre-gen"
   "CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.cmake.pre-gen"
+  "CMakeFiles/set_argv.dir/set_argv_generated_set_argv.cu.o.cmake.pre-gen"
   "CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.cmake.pre-gen"
-  "CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.Debug.cmake"
+  "CMakeFiles/main.dir/main_generated_main.cu.o.Debug.cmake"
   "CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.Debug.cmake"
+  "CMakeFiles/set_argv.dir/set_argv_generated_set_argv.cu.o.Debug.cmake"
   "CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.Debug.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/simple_device_call.dir/DependInfo.cmake"
-  "CMakeFiles/set_gpu.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/cuda_rep.dir/DependInfo.cmake"
-  "CMakeFiles/CUDA_TEST.dir/DependInfo.cmake"
+  "CMakeFiles/set_gpu.dir/DependInfo.cmake"
+  "CMakeFiles/set_argv.dir/DependInfo.cmake"
+  "CMakeFiles/simple_device_call.dir/DependInfo.cmake"
   )

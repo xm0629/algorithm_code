@@ -48,10 +48,10 @@ RM = /home/xuming/software/package/clion-2019.1.4/bin/cmake/linux/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuming/NewPartion/study/cuda_test
+CMAKE_SOURCE_DIR = /home/xuming/NewPartion/algorithm_code/cuda_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuming/NewPartion/study/cuda_test/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,30 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named simple_device_call
+# Target rules for targets named main
 
 # Build rule for target.
-simple_device_call: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 simple_device_call
-.PHONY : simple_device_call
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-simple_device_call/fast:
-	$(MAKE) -f CMakeFiles/simple_device_call.dir/build.make CMakeFiles/simple_device_call.dir/build
-.PHONY : simple_device_call/fast
-
-#=============================================================================
-# Target rules for targets named set_gpu
-
-# Build rule for target.
-set_gpu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 set_gpu
-.PHONY : set_gpu
-
-# fast build rule for target.
-set_gpu/fast:
-	$(MAKE) -f CMakeFiles/set_gpu.dir/build.make CMakeFiles/set_gpu.dir/build
-.PHONY : set_gpu/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named cuda_rep
@@ -150,17 +137,43 @@ cuda_rep/fast:
 .PHONY : cuda_rep/fast
 
 #=============================================================================
-# Target rules for targets named CUDA_TEST
+# Target rules for targets named set_gpu
 
 # Build rule for target.
-CUDA_TEST: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CUDA_TEST
-.PHONY : CUDA_TEST
+set_gpu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_gpu
+.PHONY : set_gpu
 
 # fast build rule for target.
-CUDA_TEST/fast:
-	$(MAKE) -f CMakeFiles/CUDA_TEST.dir/build.make CMakeFiles/CUDA_TEST.dir/build
-.PHONY : CUDA_TEST/fast
+set_gpu/fast:
+	$(MAKE) -f CMakeFiles/set_gpu.dir/build.make CMakeFiles/set_gpu.dir/build
+.PHONY : set_gpu/fast
+
+#=============================================================================
+# Target rules for targets named set_argv
+
+# Build rule for target.
+set_argv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_argv
+.PHONY : set_argv
+
+# fast build rule for target.
+set_argv/fast:
+	$(MAKE) -f CMakeFiles/set_argv.dir/build.make CMakeFiles/set_argv.dir/build
+.PHONY : set_argv/fast
+
+#=============================================================================
+# Target rules for targets named simple_device_call
+
+# Build rule for target.
+simple_device_call: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_device_call
+.PHONY : simple_device_call
+
+# fast build rule for target.
+simple_device_call/fast:
+	$(MAKE) -f CMakeFiles/simple_device_call.dir/build.make CMakeFiles/simple_device_call.dir/build
+.PHONY : simple_device_call/fast
 
 main.o: main.cpp.o
 
@@ -196,11 +209,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... simple_device_call"
-	@echo "... set_gpu"
+	@echo "... main"
 	@echo "... cuda_rep"
-	@echo "... CUDA_TEST"
+	@echo "... set_gpu"
+	@echo "... edit_cache"
+	@echo "... set_argv"
+	@echo "... simple_device_call"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

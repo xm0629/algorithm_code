@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuming/NewPartion/study/cuda_test/main.cpp" "/home/xuming/NewPartion/study/cuda_test/cmake-build-debug/CMakeFiles/cuda_rep.dir/main.cpp.o"
+  "/home/xuming/NewPartion/algorithm_code/cuda_test/main.cpp" "/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug/CMakeFiles/cuda_rep.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "../include"
   "/usr/local/cuda/include"
+  ".././include"
   )
 
 # Targets to which this target links.

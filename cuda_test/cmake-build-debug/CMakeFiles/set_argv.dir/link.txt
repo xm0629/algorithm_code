@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/set_argv.dir/set_argv_generated_set_argv.cu.o  -o set_argv  -L/usr/local/cuda/lib64 -Wl,-rpath,/usr/local/cuda/lib64 /usr/local/cuda/lib64/libcudart.so 

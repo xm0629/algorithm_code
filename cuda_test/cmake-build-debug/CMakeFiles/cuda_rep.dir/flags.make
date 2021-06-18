@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xuming/NewPartion/study/cuda_test/cmake-build-debug -I/home/xuming/NewPartion/study/cuda_test -I/home/xuming/NewPartion/study/cuda_test/include -I/usr/local/cuda/include 
+CXX_INCLUDES = -I/home/xuming/NewPartion/algorithm_code/cuda_test/cmake-build-debug -I/home/xuming/NewPartion/algorithm_code/cuda_test -I/home/xuming/NewPartion/algorithm_code/cuda_test/include -I/usr/local/cuda/include -I/home/xuming/NewPartion/algorithm_code/cuda_test/./include 
 

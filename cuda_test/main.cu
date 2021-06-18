@@ -39,31 +39,21 @@ bool CheckCUDA(void){
 }
 
 
-static void HandleError( cudaError_t err,
-                         const char *file,
-                         int line ) {
-    if (err != cudaSuccess) {
-        printf( "%s in %s at line %d\n", cudaGetErrorString( err ),
-                file, line );
-        exit( EXIT_FAILURE );
-    }
+
+__global__ void kernel(void){
+
 }
-
-#define HANDLE_ERROR( err ) (HandleError( err, __FILE__, __LINE__ ))
-
-
-
-#define COUNT(M) M * M               //定义有参宏
 
 
 int main( void ) {
+    kernel <<<1, 1>>>();
     printf( "Hello, World!\n" );
-
-
-    int x = 6;
-    printf("COUNT = %d\n", COUNT(x + 1));// 输出结果： COUNT = 13
-    printf("COUNT = %d\n", COUNT(++x));  // 输出结果： COUNT = 56
-
-
     return 0;
 }
+
+/*
+ * 一个空的函数 kernel(), 并且带有修饰符 __global__
+ * 对这个空函数的调用，并且带有修饰字符 <<<1, 1>>>
+ *
+ * CUDA C 为标准 C 增加 __global__ 修饰符，这个修饰符告诉编译器，函数应该运行在设备上而不是主机上运行.
+ */

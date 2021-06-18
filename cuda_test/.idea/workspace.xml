@@ -2,10 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="cuda_rep" targetName="CUDA_TEST" />
-      <config projectName="cuda_rep" targetName="set_gpu" />
+      <config projectName="cuda_rep" targetName="main" />
       <config projectName="cuda_rep" targetName="simple_device_call" />
+      <config projectName="cuda_rep" targetName="set_gpu" />
       <config projectName="cuda_rep" targetName="cuda_rep" />
+      <config projectName="cuda_rep" targetName="set_argv" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +15,59 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eaf35e6-90e6-4ea9-a84c-64b8395a1e51" name="Default Changelist" comment="" />
+    <list default="true" id="7eaf35e6-90e6-4ea9-a84c-64b8395a1e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set_argv.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.Debug.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.Debug.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.cmake.pre-gen" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.cmake.pre-gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.depend" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/CUDA_TEST_generated_main.cu.o.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CUDA_TEST.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cuda_rep.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.Debug.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.Debug.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.cmake.pre-gen" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.cmake.pre-gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.depend" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_gpu.dir/set_gpu_generated_set_gpu.cu.o.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.Debug.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.Debug.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.cmake.pre-gen" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.cmake.pre-gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.depend" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/simple_device_call.dir/simple_device_call_generated_simple_device_call.cu.o.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CUDA_TEST" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CUDA_TEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cuda_rep" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cuda_rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cuda_rep.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cuda_rep.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/set_gpu" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/set_gpu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/simple_device_call" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/simple_device_call" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/main.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.s" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,71 +84,96 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="315">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/set_gpu.cu">
+        <entry file="file://$PROJECT_DIR$/set_argv.cu">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="45">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple_device_call.cu">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/cuda/include/driver_types.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+            <state relative-caret-position="276">
+              <caret line="920" column="26" selection-start-line="920" selection-start-column="4" selection-end-line="920" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/cuda/include/cuda_runtime_api.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="5302" column="16" selection-start-line="5302" selection-start-column="16" selection-end-line="5302" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/utils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="65" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#92#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple_device_call.cu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="345">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.s">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.o">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a.out">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cu" />
         <option value="$PROJECT_DIR$/set_gpu.cu" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/simple_device_call.cu" />
+        <option value="$PROJECT_DIR$/main.cu" />
+        <option value="$PROJECT_DIR$/utils.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/set_argv.cu" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -105,12 +183,12 @@
     <option name="width" value="960" />
     <option name="height" value="1082" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,18 +196,30 @@
               <item name="cuda_rep" type="b2602c69:ProjectViewProjectNode" />
               <item name="cuda_test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cuda_rep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cuda_test" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,12 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.simple_device_call">
-    <configuration name="CUDA_TEST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cuda_rep" TARGET_NAME="CUDA_TEST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cuda_rep" RUN_TARGET_NAME="CUDA_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.cuda_rep">
     <configuration name="cuda_rep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cuda_rep" TARGET_NAME="cuda_rep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cuda_rep" RUN_TARGET_NAME="cuda_rep">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -159,6 +244,16 @@
         <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64" />
         <env name="PATH" value="/usr/local/cuda/bin" />
       </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cuda_rep" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cuda_rep" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="set_argv" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cuda_rep" TARGET_NAME="set_argv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cuda_rep" RUN_TARGET_NAME="set_argv">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -174,11 +269,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CUDA_TEST" />
       <item itemvalue="Application.set_gpu" />
       <item itemvalue="Application.simple_device_call" />
       <item itemvalue="Application.cuda_rep" />
       <item itemvalue="Application.cuda_test" />
+      <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.set_argv" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -195,31 +291,33 @@
       <workItem from="1620454906015" duration="16000" />
       <workItem from="1620633951173" duration="4352000" />
       <workItem from="1623920875195" duration="10107000" />
+      <workItem from="1623994260959" duration="4360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20252000" />
+    <option name="totallyTimeSpent" value="24612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11419424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11526147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980502" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3581152" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3578174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32879582" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22722512" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4994664" weight="0.29066107" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22722512" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.32843652" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.55208915" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.5519412" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -230,34 +328,15 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/cuda/include/cuda_runtime_api.h">
+    <entry file="file://$PROJECT_DIR$/main.i">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="300" column="57" selection-start-line="300" selection-start-column="57" selection-end-line="300" selection-end-column="57" />
-        </state>
+        <state relative-caret-position="-421450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/set_gpu.cu">
+    <entry file="file://$PROJECT_DIR$/main.s">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="52" selection-start-line="41" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1500">
+          <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -267,32 +346,72 @@
     <entry file="file://$PROJECT_DIR$/a.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.i">
+    <entry file="file://$PROJECT_DIR$/simple_device_call.cu">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421450" />
+        <state relative-caret-position="150">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_gpu.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/cuda/include/cuda_runtime_api.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="5302" column="16" selection-start-line="5302" selection-start-column="16" selection-end-line="5302" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/cuda/include/driver_types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="920" column="26" selection-start-line="920" selection-start-column="4" selection-end-line="920" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_argv.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="e#92#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple_device_call.cu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
